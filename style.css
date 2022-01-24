@@ -13,12 +13,13 @@ header{
     letter-spacing: 0.01px;
     text-decoration: none;
     color: #607a00;
-    font-weight: 900;
+    font-weight: 700;
+    font-family: sans-serif;
 }
 .ust{
     text-decoration: none;
     color: #607a00;
-    font-weight: 900;
+    font-weight: 700;
 }
 .ust:hover{
     color: #3c4d02;
@@ -42,6 +43,7 @@ button{
 button:hover{
     color: white;
     background-color: #607a00;
+    cursor:pointer;
 }
 .navig{
     list-style: none;
@@ -51,6 +53,7 @@ button:hover{
     font-family: sans-serif;
     font-weight: 600;
     color: rgb(73, 73, 73);
+    padding-right: 30px;
 }
 .tabl{
     display: flex;
@@ -70,7 +73,10 @@ button:hover{
     font-size: 1rem;
 }
 ul li:hover ul{
-    display:block
+    display:block;
+    background-color: white;
+    list-style-position: initial;
+    
 }
 ul li ul li a:hover{
     color: #607a00;
@@ -120,6 +126,7 @@ main{
    border-color: #669e98;
    padding: 20px 30px;
    font-size: 0.7rem;
+   font-family: sans-serif;
    margin-top: -10px;
 }
 .learn:hover{
@@ -166,6 +173,6 @@ nav ul a{
 }
 nav ul li ul li{
     border-bottom: 1px solid #3c4d02;
-    margin-top: 3px;
+    margin-top: 10px;
     
 }
